@@ -1,11 +1,11 @@
 Name:           open-webui
-Version:        1.0.0
+Version:        0.4.6
 Release:        1%{?dist}
 Summary:        Unified Open WebUI interface with backend service integration
 
 License:        MIT
 URL:            https://github.com/open-webui/open-webui
-Source0:        %{name}-%{version}.tar.gz
+Source0:        https://github.com/open-webui/open-webui/archive/refs/tags/v%{version}.tar.gz
 Source1:        open-webui-service.tar.gz
 
 BuildArch:      noarch
