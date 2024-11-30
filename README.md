@@ -24,6 +24,13 @@
    ```bash
    sudo dnf install open-webui-rpmpackage-<version>.rpm
 
+PS. Before install: 
+adduser openwebui --system
+su - openwebui
+python3.11 -m venv myenv 
+pip install open-webui
+pip install sqllite   
+
 ## TODO list
    adduser openwebui --system
    su - openwebui
